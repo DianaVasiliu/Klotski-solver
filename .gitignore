@@ -2,3 +2,5 @@
 .idea
 venv
 
+# Other files
+*.txt
