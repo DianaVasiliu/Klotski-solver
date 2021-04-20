@@ -85,20 +85,11 @@ As mentioned above, the implemented algorithms are UCS, A*, optimised A* and IDA
 
 The interesting input files are the third and the fourth, having the following initial table configurations:
 
-<p align="center">
-  <div style="display: flex; justify-content: space-evenly">
-    <figure style="text-align:center; display:inline-block; width:38%">
-        <img src="images/file_3_input.png" alt="file input 3"/>
-        <figcaption center="center"><b>Input file 3</b></figcaption>
-    </figure>
-    <figure style="text-align:center; display:inline-block; width:38%">
-        <img src="images/file_4_input.png" alt="file input 4"/>
-        <figcaption center="center"><b>Input file 4</b></figcaption>
-    </figure>
-  </div>
+<p align="center" display="inline-block">
+  <img src="images/input_file_3.png" alt="input file 3"/>
+  <img src="images/input_file_4.png" alt="input file 4"/>
 </p>
-
-
+ 
 The values obtained are put in the following table:
 (**Note:** memMax is the maximum number of nodes in the memory at one time, nNax is the total number of generated nodes)
 
