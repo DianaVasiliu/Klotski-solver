@@ -1,0 +1,345 @@
+################## Solutions obtained with UCS ##################
+Solution 1:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 0
+Length: 1
+Time: 0.0009999275207519531
+Maximum number of nodes in memory: 1
+Number of computed nodes: 1
+
+---------------
+
+Solution 2:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+2)
+Moving piece c to the right
+# # # # # # #
+# b . . c d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 1
+Length: 2
+Time: 0.0009999275207519531
+Maximum number of nodes in memory: 5
+Number of computed nodes: 6
+
+---------------
+
+
+################## Solutions obtained with A* ##################
+TRIVIAL HEURISTIC
+Solution 1:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 0
+Length: 1
+Time: 0.0
+Maximum number of nodes in memory: 1
+Number of computed nodes: 1
+
+---------------
+
+Solution 2:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+2)
+Moving piece c to the right
+# # # # # # #
+# b . . c d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 1
+Length: 2
+Time: 0.0009996891021728516
+Maximum number of nodes in memory: 5
+Number of computed nodes: 6
+
+---------------
+
+ADMISSIBLE HEURISTIC
+Solution 1:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 0
+Length: 1
+Time: 0.0
+Maximum number of nodes in memory: 1
+Number of computed nodes: 1
+
+---------------
+
+Solution 2:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+2)
+Moving piece c to the right
+# # # # # # #
+# b . . c d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 1
+Length: 2
+Time: 0.0009999275207519531
+Maximum number of nodes in memory: 5
+Number of computed nodes: 6
+
+---------------
+
+NONADMISSIBLE HEURISTIC
+Solution 1:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 0
+Length: 1
+Time: 0.0
+Maximum number of nodes in memory: 1
+Number of computed nodes: 1
+
+---------------
+
+Solution 2:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+2)
+Moving piece c to the right
+# # # # # # #
+# b . . c d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 1
+Length: 2
+Time: 0.0
+Maximum number of nodes in memory: 5
+Number of computed nodes: 6
+
+---------------
+
+
+################## Solutions obtained with optimised A* ##################
+TRIVIAL HEURISTIC
+Solution:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 0
+Length: 1
+Time: 0.0010001659393310547
+Maximum number of nodes in memory: 1
+Number of computed nodes: 1
+
+----------------
+
+ADMISSIBLE HEURISTIC
+Solution:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 0
+Length: 1
+Time: 0.0
+Maximum number of nodes in memory: 1
+Number of computed nodes: 1
+
+----------------
+
+NONADMISSIBLE HEURISTIC
+Solution:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 0
+Length: 1
+Time: 0.0
+Maximum number of nodes in memory: 1
+Number of computed nodes: 1
+
+----------------
+
+
+################## Solutions obtained with IDA*: ##################
+TRIVIAL HEURISTIC
+Solution:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 0
+Length: 1
+Time: 0.0
+Maximum number of nodes in memory: 1
+Number of computed nodes: 1
+
+----------------
+
+Solution:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+2)
+Moving piece c to the left
+# # # # # # #
+# b c . . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 1
+Length: 2
+Time: 0.0009982585906982422
+Maximum number of nodes in memory: 6
+Number of computed nodes: 11
+
+----------------
+
+ADMISSIBLE HEURISTIC
+Solution:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 0
+Length: 1
+Time: 0.0
+Maximum number of nodes in memory: 1
+Number of computed nodes: 1
+
+----------------
+
+Solution:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+2)
+Moving piece c to the left
+# # # # # # #
+# b c . . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 1
+Length: 2
+Time: 0.0009999275207519531
+Maximum number of nodes in memory: 6
+Number of computed nodes: 11
+
+----------------
+
+NONADMISSIBLE HEURISTIC
+Solution:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 0
+Length: 1
+Time: 0.0
+Maximum number of nodes in memory: 1
+Number of computed nodes: 1
+
+----------------
+
+Solution:
+1)
+# # # # # # #
+# b . c . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+2)
+Moving piece c to the left
+# # # # # # #
+# b c . . d .
+# b b a . d .
+# . . a a a #
+# # # # # # #
+
+Cost: 1
+Length: 2
+Time: 0.0019986629486083984
+Maximum number of nodes in memory: 6
+Number of computed nodes: 11
+
+----------------
+
+

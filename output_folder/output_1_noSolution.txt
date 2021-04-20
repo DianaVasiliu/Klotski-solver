@@ -1,0 +1,37 @@
+################## Solutions obtained with UCS ##################
+The problem doesn't have any solution!
+
+
+################## Solutions obtained with A* ##################
+TRIVIAL HEURISTIC
+The problem doesn't have any solution!
+
+ADMISSIBLE HEURISTIC
+The problem doesn't have any solution!
+
+NONADMISSIBLE HEURISTIC
+The problem doesn't have any solution!
+
+
+################## Solutions obtained with optimised A* ##################
+TRIVIAL HEURISTIC
+The problem doesn't have any solution!
+
+ADMISSIBLE HEURISTIC
+The problem doesn't have any solution!
+
+NONADMISSIBLE HEURISTIC
+The problem doesn't have any solution!
+
+
+################## Solutions obtained with IDA*: ##################
+TRIVIAL HEURISTIC
+The problem doesn't have any solution!
+
+ADMISSIBLE HEURISTIC
+The problem doesn't have any solution!
+
+NONADMISSIBLE HEURISTIC
+The problem doesn't have any solution!
+
+
